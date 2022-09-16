@@ -1,0 +1,10 @@
+.tableset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableset div {
+    padding: 10px;
+    width: 150px;
+    margin: 1px;
+}

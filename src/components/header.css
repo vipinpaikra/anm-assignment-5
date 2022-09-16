@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+}
+.navContainer {
+    flex: 1;
+    text-align: left;
+    margin: 10px 40px;
+}
+
+.nav {
+    background-color: rgb(162, 218, 237);
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+.search {
+    flex: 1;
+}
+.logo {
+    flex: 1;
+    padding-bottom: 30px;
+}
+.nav li {
+    cursor: pointer;
+    padding: 7px;
+}
+.nav li:hover {
+    color: white;
+}
+
+.logo ul {
+    position: absolute;
+    display: flex;
+}
+.logo ul li {
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+
+.logo ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+    color: black;
+}
